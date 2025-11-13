@@ -1,0 +1,56 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+.navbar i:hover{
+    cursor: pointer;
+}
+.hero{
+    background-image: linear-gradient(rgba(0, 0, 0,0.6)),url(../../Assets/assets/img/umrah.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.project img{
+    height: 250px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.project img:hover{
+    transform: scale(1.05);
+}
+.navbar {
+    transition: all 0.5s ease;
+}
+.scrolling-active{
+    background-color: #25D366;
+}
+.service i{
+    color: rgb(17, 146, 10);
+}
+.service ul li{
+    list-style-type: none;
+}
+.footer ul li {
+    list-style-type: none;
+    cursor: pointer;
+}
+.footer a{
+    text-decoration: none;
+}
+.footer p{
+    color: gray;
+}
+.about i{
+    color: #25D366;
+}
+.container-fluid{
+    background-color: #F8F8FF;
+}
+.container-fluid2{
+    margin-top: 50px;
+}
+.container-fluid2 .row{
+    margin-left: 350px;
+}
